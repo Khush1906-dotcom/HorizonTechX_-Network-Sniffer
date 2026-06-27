@@ -43,6 +43,7 @@ def process_packet(packet):
             icmp_count += 1
         else:
             other_count += 1
+        print(f"TCP={tcp_count}, UDP={UDP_count}, ICMP={icmp_count}, OTHER={other_count}")
         output = (
             f"\n{'='*60}\n"
             f"Time           : {timestamp}\n"
