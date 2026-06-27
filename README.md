@@ -22,3 +22,9 @@ This project is a Python-based network packet sniffer developed using the Scapy 
 * Python 3
 * Scapy
 * Datetime Module
+
+## Screenshot
+
+### Real-Time Packet Capture
+
+![Packet Capture](screenshots/capture.png)
